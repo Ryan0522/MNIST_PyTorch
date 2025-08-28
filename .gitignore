@@ -5,6 +5,8 @@ venv/
 
 # Ignore dataset
 data/
+checkpoints/
+*.pt
 
 # Ignore Python cache/compiled files
 __pycache__/
