@@ -1,6 +1,6 @@
 # MNIST — Logistic Regression vs MLP (PyTorch)
 
-A compact, reproducible MNIST baseline comparing a **logistic regression** (linear) and a **2-layer MLP** (nonlinear) — all in pure PyTorch (no sklearn).
+A compact, reproducible MNIST baseline comparing a **logistic regression** (linear) and a **2-layer MLP** (nonlinear) — all in pure PyTorch (no sklearn). This project is for educational purposes only.
 
 ## Results (Week 1, Day 4)
 
@@ -59,7 +59,3 @@ python predict.py --model mlp --ckpt checkpoints/<exp>-best.pt --img path/to/dig
 - **Confusion Matrix** implemented without sklearn (pure PyTorch).
 - Plots saved via matplotlib.
 - Fixed random seed recommended for reproducibility.
-
-## License
-
-MIT
